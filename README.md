@@ -30,7 +30,11 @@ Finally, nodejs server will start on `http://localhost:7000`
 ```
 CRUD API
 1. POST: /api/book/store --> Store the book
-![image](image.png)
+    Params: {
+        "name": "OOP's Concept",
+        "author": "Pappu Singh",
+        "summery": "This the test book"
+    }
 2. GET: /api/books  --> Book listing
 3. GET: /api/book/<book_id> --> Fetch Book detail by book id
 4. DELETE: /api/book/<book_id> --> Delete book by book id
